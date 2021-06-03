@@ -33,23 +33,23 @@ function App() {
            </h1>
            </div>
            <div class = "box-1">
-            <div className = "box-1a" href = "https://www.w3schools.com/">
-            <a>
+            <div className = "box-1a" >
+            <a href = "https://www.w3schools.com/">
                联系我们
             </a>
             </div>
-            <div className = "box-1b" href = "https://www.w3schools.com/">
-            <a>
+            <div className = "box-1b" >
+            <a href = "https://www.w3schools.com/">
                案例分析
             </a>
             </div>
-            <div className = "box-1c" href = "https://www.w3schools.com/">
-            <a>
+            <div className = "box-1c">
+            <a href = "https://www.w3schools.com/">
                产品介绍
             </a>
             </div>
-            <div className = "box-1d" href = "https://www.w3schools.com/">
-            <a>
+            <div className = "box-1d" >
+            <a href = "https://www.w3schools.com/">
                公司简介
             </a>
             </div>
