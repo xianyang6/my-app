@@ -40,12 +40,18 @@
 **/
 .box-1 {
   position: relative;
-  font-size: 350%;
+  font-size: 150%;
   font-family: Kaiti;
   color: whitesmoke;
-  background: -webkit-linear-gradient(left, rgb(0, 110, 255), rgb(18, 196, 250)); 
+  background: -webkit-linear-gradient(left, black, rgb(18, 196, 250)); 
   padding-left: 25px;
 }
-.b-1{
-  width: 50%;
+.b-1 {
+  width: 100%;
+}
+@media(max-width: 600px){
+  .app{
+    width:100%;
+    float: none;
+  }
 }

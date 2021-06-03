@@ -23,7 +23,7 @@ function App() {
     **/
     <div className="App">
       <header className="App-header">
-        
+        main page
       </header>
       <body className = "App-body">
         <div class ="b-1">
