@@ -71,7 +71,7 @@
   width: 100%;
   background: -webkit-linear-gradient(left, black, rgb(18, 196, 250)); 
 }
-@media(max-width: 3000px){
+@media(max-width: 600px){
   .app{
     width:100%;
     float: none;
