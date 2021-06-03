@@ -33,22 +33,22 @@ function App() {
            </h1>
            </div>
            <div class = "box-1">
-            <div className = "box-1a">
+            <div className = "box-1a" href = "https://www.youtube.com/">
             <a>
                联系我们
             </a>
             </div>
-            <div className = "box-1b">
+            <div className = "box-1b" href = "https://www.youtube.com/">
             <a>
                案例分析
             </a>
             </div>
-            <div className = "box-1c">
+            <div className = "box-1c" href = "https://www.youtube.com/">
             <a>
                产品介绍
             </a>
             </div>
-            <div className = "box-1c">
+            <div className = "box-1d" href = "https://www.youtube.com/">
             <a>
                公司简介
             </a>
