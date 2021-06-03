@@ -1,8 +1,9 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
+    /** 
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,6 +19,21 @@ function App() {
           Learn React
         </a>
       </header>
+    </div>
+    **/
+    <div className="App">
+      <header className="App-header">
+        
+      </header>
+      <body className = "App-body">
+        <div class ="b-1">
+          <div class = "box-1">
+           <h1 classname = "Company-Name">
+              恒原创
+           </h1>
+          </div>
+        </div>
+      </body>
     </div>
   );
 }
