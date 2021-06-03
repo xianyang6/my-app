@@ -27,10 +27,32 @@ function App() {
       </header>
       <body className = "App-body">
         <div class ="b-1">
-          <div class = "box-1">
+           <div className = "box-0">
            <h1 classname = "Company-Name">
               恒原创
            </h1>
+           </div>
+           <div class = "box-1">
+            <div className = "box-1a">
+            <a>
+               联系我们
+            </a>
+            </div>
+            <div className = "box-1b">
+            <a>
+               案例分析
+            </a>
+            </div>
+            <div className = "box-1c">
+            <a>
+               产品介绍
+            </a>
+            </div>
+            <div className = "box-1c">
+            <a>
+               公司简介
+            </a>
+            </div>
           </div>
         </div>
       </body>

@@ -38,18 +38,40 @@
   }
 }
 **/
-.box-1 {
-  position: relative;
-  font-size: 150%;
+.box-0{
+  font-size: 100%;
   font-family: Kaiti;
   color: whitesmoke;
-  background: -webkit-linear-gradient(left, black, rgb(18, 196, 250)); 
   padding-left: 25px;
+  display: inline-block;
+}
+.box-1{
+  display: inline-block;
+  font-family: Kaiti;
+  color: whitesmoke;
+  font-size: 150%;
+  padding-left: 60%;
+}
+.box-1a{
+  display: inline;
+}
+.box-1b{
+  display: inline;
+  padding-left: 80px;
+}
+.box-1c{
+  display: inline;
+  padding-left: 80px;
+}
+.box-1d{
+  display: inline;
+  padding-left: 80px;
 }
 .b-1 {
   width: 100%;
+  background: -webkit-linear-gradient(left, black, rgb(18, 196, 250)); 
 }
-@media(max-width: 600px){
+@media(max-width: 3000px){
   .app{
     width:100%;
     float: none;
