@@ -38,7 +38,7 @@ function App() {
                联系我们
             </a>
             </div>
-            <div className = "box-1b" href="http://www.google.com">
+            <div className = "box-1b">
             <a>
                案例分析
             </a>
