@@ -38,6 +38,7 @@
   }
 }
 **/
+@media screen and (min-width: 1024px) {
 .box-0{
   font-size: 100%;
   font-family: Kaiti;
@@ -50,7 +51,7 @@
   font-family: Kaiti;
   color: whitesmoke;
   font-size: 150%;
-  padding-left: 60%;
+  padding-left: 50%;
 }
 .box-1a{
   display: inline;
@@ -92,5 +93,122 @@
   .app{
     width:100%;
     float: none;
+  }
+}
+}
+@media screen and (max-width: 1500px) {
+  .box-0{
+    font-size: 100%;
+    font-family: Kaiti;
+    color: whitesmoke;
+    padding-left: 25px;
+    display: inline-block;
+  }
+  .box-1{
+    display: inline-block;
+    font-family: Kaiti;
+    color: whitesmoke;
+    font-size: 150%;
+    padding-left: 30%;
+  }
+  .b-1 {
+    width: 100%;
+    background: -webkit-linear-gradient(left, rgb(0, 89, 255), rgb(188, 250, 18)); 
+  }
+  .button0a{
+    background-color: rgba(0, 0, 0, 0.699);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  @media(max-width: 600px){
+    .app{
+      width:100%;
+      float: none;
+    }
+  }
+  .b-0{
+    font-size: medium;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-image: url("high tech.jpg");
+  }
+  .box-1a{
+    display: inline;
+  }
+  .box-1b{
+    display: inline;
+    padding-left: 60px;
+  }
+  .box-1c{
+    display: inline;
+    padding-left: 60px;
+  }
+  .box-1d{
+    display: inline;
+    padding-left: 60px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .box-0{
+    font-size: 100%;
+    font-family: Kaiti;
+    color: whitesmoke;
+    padding-left: 25px;
+    display: inline-block;
+  }
+  .box-1{
+    display: inline-block;
+    font-family: Kaiti;
+    color: whitesmoke;
+    font-size: 150%;
+    padding-left: 20%;
+  }
+  .b-1 {
+    width: 100%;
+    background: -webkit-linear-gradient(left, rgb(0, 89, 255), rgb(188, 250, 18)); 
+  }
+  .button0a{
+    background-color: rgba(0, 0, 0, 0.699);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  @media(max-width: 600px){
+    .app{
+      width:100%;
+      float: none;
+    }
+  }
+  .b-0{
+    font-size: medium;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-image: url("high tech.jpg");
+  }
+  .box-1a{
+    display: none;
+  }
+  .box-1b{
+    display: none;
+    padding-left: 60px;
+  }
+  .box-1c{
+    display: none;
+    padding-left: 60px;
+  }
+  .box-1d{
+    display: none;
+    padding-left: 60px;
   }
 }
