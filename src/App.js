@@ -22,9 +22,13 @@ function App() {
     </div>
     **/
     <div className="App">
+      <div className = "b-0">
       <header className="App-header">
-        main page
+        <button class = "button0a">
+          主页
+        </button>
       </header>
+      </div>
       <body className = "App-body">
         <div class ="b-1">
            <div className = "box-0">
