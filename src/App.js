@@ -29,7 +29,7 @@ function App() {
         <div class ="b-1">
            <div className = "box-0">
            <h1 classname = "Company-Name">
-              恒原创
+              恒元创
            </h1>
            </div>
            <div class = "box-1">
