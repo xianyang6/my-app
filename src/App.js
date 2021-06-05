@@ -59,7 +59,7 @@ function App() {
             </div>
           </div>
         </div>
-        <img src = "https://i.postimg.cc/DwcFRmnt/DJI-0135.jpg"></img>
+        <img src = "https://i.postimg.cc/DwcFRmnt/DJI-0135.jpg" alt =""></img>
       </body>
       </div>
   );
