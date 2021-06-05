@@ -59,7 +59,9 @@ function App() {
             </div>
           </div>
         </div>
-        <img src = "https://i.postimg.cc/DwcFRmnt/DJI-0135.jpg" alt =""></img>
+        <div className ="m-1">
+        <img src = "https://i.postimg.cc/DwcFRmnt/DJI-0135.jpg" alt ="" className ="img-1"></img>
+        </div>
       </body>
       </div>
   );
