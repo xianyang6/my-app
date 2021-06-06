@@ -55,18 +55,12 @@
 }
 .box-1a{
   display: inline;
-}
-.box-1b{
-  display: inline;
+
+
   padding-left: 60px;
 }
-.box-1c{
-  display: inline;
-  padding-left: 60px;
-}
-.box-1d{
-  display: inline;
-  padding-left: 60px;
+.box1-b{
+  display:none;
 }
 .b-1 {
   width: 100%;
@@ -79,10 +73,13 @@
   padding-top: 5px;
   background-image: url("high tech.jpg");
 }
+a{
+  text-decoration: none
+}
 .button0a{
   background-color: rgba(0, 0, 0, 0.699);
   border: none;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -143,20 +140,12 @@
     padding-top: 5px;
     background-image: url("high tech.jpg");
   }
+  .box1-b{
+    display:inline;
+    padding-left: 30px;
+  }
   .box-1a{
     display: none;
-  }
-  .box-1b{
-    display: none;
-    padding-left: 60px;
-  }
-  .box-1c{
-    display: none;
-    padding-left: 60px;
-  }
-  .box-1d{
-    display: none;
-    padding-left: 60px;
   }
   .img-1{
     width: 100%;
@@ -165,7 +154,7 @@
   @media screen and (min-width: 100px) {
     .img-1{
       width: 100%;
-      height:400px;
+      height:200px;
     }
   }
 }

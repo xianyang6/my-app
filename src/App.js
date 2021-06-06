@@ -1,6 +1,5 @@
 //import logo from './logo.svg';
 import './App.css';
-
 function App() {
   return (
     /** 
@@ -22,8 +21,12 @@ function App() {
     </div>
     **/
     <div className="App">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <div className = "b-0">
-      <header className="App-header">
+        <header className="App-header">
         <button class = "button0a">
           主页
         </button>
@@ -37,22 +40,34 @@ function App() {
            </h1>
            </div>
            <div class = "box-1">
+           <a href = "https://www.w3schools.com/" className ="box1-b">
+             <span class="glyphicon glyphicon-earphone"></span>
+           </a>
+           <a href="https://www.w3schools.com/" className ="box1-b">
+             <span class="glyphicon glyphicon-question-sign"></span>
+           </a>
+           <a href= "https://www.w3schools.com/" className ="box1-b">
+             <span class="glyphicon glyphicon-search"></span>
+           </a>
+           <a href= "https://www.w3schools.com/" className ="box1-b">
+            <span class="glyphicon glyphicon-info-sign"></span>
+          </a>
             <div className = "box-1a" >
             <a href = "https://www.w3schools.com/">
                联系我们
             </a>
             </div>
-            <div className = "box-1b" >
+            <div className = "box-1a" >
             <a href = "https://www.w3schools.com/">
                案例分析
             </a>
             </div>
-            <div className = "box-1c">
+            <div className = "box-1a">
             <a href = "https://www.w3schools.com/">
                产品介绍
             </a>
             </div>
-            <div className = "box-1d" >
+            <div className = "box-1a" >
             <a href = "https://www.w3schools.com/">
                公司简介
             </a>
