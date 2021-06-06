@@ -46,12 +46,19 @@
   padding-left: 25px;
   display: inline-block;
 }
+.img-2{
+  display: inline-block;
+  width: 120px;
+  height: 60px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
 .box-1{
   display: inline-block;
   font-family: Kaiti;
   color: whitesmoke;
   font-size: 150%;
-  padding-left: 40%;
+  padding-left: 30%;
 }
 .box-1a{
   display: inline;
@@ -150,6 +157,13 @@ a{
   .img-1{
     width: 100%;
     height:200px;
+  }
+  .img-2{
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    padding-left: 10px;
+    padding-bottom: 20px;
   }
   @media screen and (max-width: 500px) {
     .box1-b{

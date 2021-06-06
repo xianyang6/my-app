@@ -39,6 +39,7 @@ function App() {
               恒元创
            </h1>
            </div>
+           <img src ="https://i.postimg.cc/mZ5wwxMF/d4d63b76378afe0668c2f1f12cafce7.png" alt ="" className ="img-2"></img>
            <div class = "box-1">
            <a href = "https://www.w3schools.com/" className ="box1-b">
              <span class="glyphicon glyphicon-earphone"></span>
