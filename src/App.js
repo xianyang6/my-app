@@ -76,11 +76,19 @@ function App() {
           </div>
         </div>
         <div className ="m-1">
-        <img src = "https://i.postimg.cc/DwcFRmnt/DJI-0135.jpg" alt ="" className ="img-1"></img>
+          <img src = "https://i.postimg.cc/DwcFRmnt/DJI-0135.jpg" alt ="" className ="img-1" id = "img-1"></img>
+          <button class="btn" onClick={NextImg}>下一张</button>
         </div>
       </body>
       </div>
   );
 }
-
+function NextImg() { 
+  var ImageId = document.getElementById("img-1");
+  if (ImageId.src.match("https://i.postimg.cc/DwcFRmnt/DJI-0135.jpg")){
+     ImageId.src = "https://i.postimg.cc/TwbXdzzL/963A9831.jpg";
+  } else {
+    ImageId.src = "https://i.postimg.cc/DwcFRmnt/DJI-0135.jpg";
+  }
+}
 export default App;
