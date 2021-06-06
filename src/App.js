@@ -102,6 +102,8 @@ function NextImg() {
   } else if (ImageId.src.match("https://i.postimg.cc/qRfB8Y58/963A9807.jpg")) {
     ImageId.src = "https://i.postimg.cc/GpCSGxj4/963A9816.jpg";
   } else if (ImageId.src.match("https://i.postimg.cc/GpCSGxj4/963A9816.jpg")) {
+    ImageId.src = "https://i.postimg.cc/htBtzNNT/963A9839.jpg";
+  } else if (ImageId.src.match("https://i.postimg.cc/htBtzNNT/963A9839.jpg")){
     ImageId.src = "https://i.postimg.cc/DwcFRmnt/DJI-0135.jpg";
   }
 }
