@@ -1,119 +1,83 @@
-/**
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-**/
 @media screen and (min-width: 1200px) {
-.box-0{
-  font-size: 100%;
-  font-family: Kaiti;
-  color: whitesmoke;
-  padding-left: 25px;
-  display: inline-block;
-}
-.img-2{
-  display: inline-block;
-  width: 120px;
-  height: 60px;
-  padding-left: 10px;
-  padding-bottom: 20px;
-}
-.box-1{
-  display: inline-block;
-  font-family: Kaiti;
-  color: whitesmoke;
-  font-size: 150%;
-  padding-left: 30%;
-}
-.box-1a{
-  display: inline;
-
-
-  padding-left: 60px;
-}
-.box1-b{
-  display:none;
-}
-.b-1 {
-  width: 100%;
-  background: -webkit-linear-gradient(left, rgb(0, 89, 255), rgb(188, 250, 18)); 
-}
-.b-0{
-  font-size: medium;
-  padding-left: 0px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  background-image: url("high tech.jpg");
-}
-a{
-  text-decoration: none
-}
-.button0a{
-  background-color: rgba(0, 0, 0, 0.699);
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-@media(max-width: 600px){
-  .app{
-    width:100%;
-    float: none;
+  .b-0 {
+    font-size: medium;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-image: url("high tech.jpg");
   }
-}
-.img-1{
-  width: 100%;
-  height:700px;
-}
-}
-
-@media screen and (max-width: 1200px) {
-  .box-0{
+  /**
+  .box-0 {
     font-size: 100%;
     font-family: Kaiti;
     color: whitesmoke;
     padding-left: 25px;
     display: inline-block;
   }
-  .box-1{
+  .img-2 {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
+  .box-1 {
+    display: inline-block;
+    font-family: Kaiti;
+    color: whitesmoke;
+    font-size: 150%;
+    padding-left: 30%;
+  }
+  .box-1a {
+    display: inline;
+    padding-left: 60px;
+  }
+  .box1-b {
+    display: none;
+  }
+  .b-1 {
+    width: 100%;
+    background: -webkit-linear-gradient(left, rgb(0, 89, 255), rgb(188, 250, 18));
+  }
+  a {
+    text-decoration: none
+  }
+  **/
+  .button0a {
+    background-color: rgba(0, 0, 0, 0.699);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  @media(max-width: 600px) {
+    .app {
+      width: 100%;
+      float: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .b-0 {
+    font-size: medium;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-image: url("high tech.jpg");
+  }
+  /**
+  .box-0 {
+    font-size: 100%;
+    font-family: Kaiti;
+    color: whitesmoke;
+    padding-left: 25px;
+    display: inline-block;
+  }
+  .box-1 {
     display: inline-block;
     font-family: Kaiti;
     color: whitesmoke;
@@ -122,9 +86,10 @@ a{
   }
   .b-1 {
     width: 100%;
-    background: -webkit-linear-gradient(left, rgb(0, 89, 255), rgb(188, 250, 18)); 
+    background: -webkit-linear-gradient(left, rgb(0, 89, 255), rgb(188, 250, 18));
   }
-  .button0a{
+  **/
+  .button0a {
     background-color: rgba(0, 0, 0, 0.699);
     border: none;
     color: white;
@@ -134,31 +99,21 @@ a{
     display: inline-block;
     font-size: 16px;
   }
-  @media(max-width: 600px){
-    .app{
-      width:100%;
+  @media(max-width: 600px) {
+    .app {
+      width: 100%;
       float: none;
     }
   }
-  .b-0{
-    font-size: medium;
-    padding-left: 0px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    background-image: url("high tech.jpg");
-  }
-  .box1-b{
-    display:inline;
+  /**
+  .box1-b {
+    display: inline;
     padding-left: 20px;
   }
-  .box-1a{
+  .box-1a {
     display: none;
   }
-  .img-1{
-    width: 100%;
-    height:200px;
-  }
-  .img-2{
+  .img-2 {
     display: inline-block;
     width: 120px;
     height: 60px;
@@ -166,15 +121,10 @@ a{
     padding-bottom: 20px;
   }
   @media screen and (max-width: 500px) {
-    .box1-b{
-      display:inline;
+    .box1-b {
+      display: inline;
       padding-left: 10px;
     }
   }
-  @media screen and (min-width: 100px) {
-    .img-1{
-      width: 100%;
-      height:200px;
-    }
-  }
+  **/
 }
