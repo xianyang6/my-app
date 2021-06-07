@@ -1,0 +1,32 @@
+/*
+.headerMain{
+  text-align: center;
+  font-size: 50px;
+  background-color: rgba(128, 128, 128, 0.699);
+  color:orange;
+  font-family: Kaiti;
+}
+**/
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.boxA{
+  position:absolute;
+  font-size: 50px;
+  top:8px;
+  left:16px;
+  font-family: Kaiti;
+}
+.img {
+  width: 100%;
+}
+.paraA{
+    position:absolute;
+  /*font-size: 50px;*/
+  top:60px;
+  left:16px;
+    font-size:20px;
+  width: 20%;
+}

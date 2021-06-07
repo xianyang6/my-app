@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 import Home from './Home';
 import NavBar from './NavBar';
-
+import Description from './Description';
 export default function App() {
 
   return (
@@ -36,6 +36,7 @@ export default function App() {
       <body className="App-body">
         <NavBar />
         <Home />
+        <Description/>
       </body>
     </div >
   );
