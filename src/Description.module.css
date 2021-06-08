@@ -12,21 +12,50 @@
     text-align: center;
     color: black;
 }
+@media screen and (min-width: 1200px) {
 .boxA{
   position:absolute;
   font-size: 50px;
   top:8px;
   left:16px;
   font-family: Kaiti;
+  border-style: dotted;
+  border-color: lightskyblue;
+}
+}
+@media screen and (max-width: 1200px) {
+  .boxA{
+    position:absolute;
+    font-size: 20px;
+    top:8px;
+    left:16px;
+    font-family: Kaiti;
+    width:20%;
+    border-style: dotted;
+  border-color: lightskyblue;
+  }
 }
 .img {
   width: 100%;
 }
+@media screen and (min-width: 1200px) {
 .paraA{
     position:absolute;
   /*font-size: 50px;*/
-  top:60px;
-  left:16px;
+  top:80px;
+  left:20px;
     font-size:20px;
   width: 20%;
+  border-style:dashed;
+}
+}
+@media screen and (max-width: 1200px) {
+  .paraA{
+    position:absolute;
+  /*font-size: 50px;*/
+  top:10px;
+  right:10px;
+    font-size:4px;
+  width: 30%;
+}
 }

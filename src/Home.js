@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Description from './Description';
 import styles from './Home.module.css';
 
 const imgLinks = [
@@ -15,13 +16,16 @@ const imgLinks = [
 ];
 
 export default function Home() {
-  
+
   const [imgIndex, setImgIndex] = useState(0);
 
   return (
-    <div className="m-1">
-      <img src={imgLinks[imgIndex]} alt="" className={styles.img}></img>
-      <button class="btn" onClick={() => setImgIndex(prev => (prev + 1) % imgLinks.length)}>下一张</button>
-    </div>
+    <>
+      <div className="m-1">
+        <img src={imgLinks[imgIndex]} alt="" className={styles.img}></img>
+        <button class="btn" onClick={() => setImgIndex(prev => (prev + 1) % imgLinks.length)}>下一张</button>
+      </div>
+      <Description />
+    </>
   );
 }

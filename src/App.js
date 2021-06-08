@@ -1,9 +1,16 @@
 //import logo from './logo.svg';
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 import './App.css';
 import Home from './Home';
 import NavBar from './NavBar';
-import Description from './Description';
+import Contact from './Contact';
+import Analyze from './Analyze';
+import Intro from './Intro';
 export default function App() {
 
   return (
@@ -25,20 +32,61 @@ export default function App() {
       </header>
     </div>
     **/
-    <div className="App">
+    <Router>
+      {/* <div className="App">
       <div className="b-0">
         <header className="App-header">
           <button class="button0a">
             主页
           </button>
         </header>
-      </div>
-      <body className="App-body">
-        <NavBar />
-        <Home />
-        <Description/>
-      </body>
-    </div >
+      </div> */}
+      {/* <body className="App-body"> */}
+      <NavBar />
+      {/* <Home /> */}
+      {/* <Description/> */}
+      {/* </body>
+    </div > */}
+      {/* <nav>
+        <ul>
+          <li className={styles.boxBa}>
+          <Link to="/contact">
+            Contact
+          </Link>
+          </li>
+        <li className={styles.boxBa} >
+          <Link to="/analyze">
+            案例分析
+          </Link>
+        </li>
+        <li className={styles.boxBa}>
+          <Link to="/products">
+            产品介绍
+          </Link>
+        </li>
+        <li className={styles.boxBa} >
+          <Link to="/intro">
+            公司简介
+          </Link>
+        </li>
+        </ul>
+      </nav> */}
+      <Switch>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route path = "/intro">
+          <Intro />
+        </Route>
+        <Route path="/analyze">
+          <Analyze />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
+
   );
 }
 // function NextImg() {
