@@ -4,13 +4,21 @@ import './NavBar.module.css';
 import {
   Link
 } from "react-router-dom";
+import { useHistory } from "react-router-dom";
+
+
 
 export default function NavBar() {
+  const history = useHistory();
+  const routeChange = () =>{ 
+  let path = `newPath`; 
+  history.push(path);
+  }
   return (
     <>
      <div className="b-0">
         <header className="App-header">
-          <button class="button0a">
+          <button class="button0a" onClick ={routeChange}>
             主页
           </button>
         </header>
@@ -52,7 +60,7 @@ export default function NavBar() {
           </Link>
         </li>
         <li className={styles.boxBa} >
-          <Link to="/">
+          <Link to="/about">
             公司简介
           </Link>
         </li>

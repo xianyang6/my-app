@@ -11,6 +11,7 @@ import NavBar from './NavBar';
 import Contact from './Contact';
 import Analyze from './Analyze';
 import Intro from './Intro';
+import About from './About';
 export default function App() {
 
   return (
@@ -80,6 +81,9 @@ export default function App() {
         </Route>
         <Route path="/analyze">
           <Analyze />
+        </Route>
+        <Route path ="/about">
+          <About />
         </Route>
         <Route path="/">
           <Home />
