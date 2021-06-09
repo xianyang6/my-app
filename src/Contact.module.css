@@ -1,6 +1,24 @@
 .form{
  width:"100%";
- height: 800px;
+ height: 600px;
    background: transparent; 
    border: 1px solid #ccc;
+}
+.img{
+    width:100%;
+}
+
+.imgBox{
+    position: relative;
+}
+
+.formA{
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+@media screen and (max-width: 600px) {
+    .img{
+        display: none;
+    }
 }
