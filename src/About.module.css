@@ -1,0 +1,13 @@
+.mainTitle{
+    font-size: 50px;
+    text-align:center;
+    border-style: dotted;
+    border-color:cornflowerblue;
+}
+.paraGraph{
+    padding-left:10px;
+    padding-right:10px;
+    font-size:20px;
+}
+.imgA{
+}
