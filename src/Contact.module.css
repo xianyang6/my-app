@@ -17,6 +17,22 @@
     top:0px;
     right: 0px;
 }
+.barBox{
+    width: 100%;
+    background: -webkit-linear-gradient(left, rgb(0, 89, 255), rgb(188, 250, 18));
+}
+.phoneNumber{
+    font-size: 30px;
+    color: white;
+    font-style:'Kaiti';
+    padding-left:20px;
+    display: inline-block;
+}
+.phoneCartoon{
+    padding-left:5px;
+ width:45px;
+ height:40px;
+}
 @media screen and (max-width: 600px) {
     .img{
         display: none;
