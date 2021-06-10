@@ -1,6 +1,7 @@
 import React from 'react';
+import styles from './CaseEight.module.css';
 export default function CaseSeventeen() {
-    return(<p>
+    return(<p className ={styles.paraGraph}>
        欧美国家为了达到节能效果，会在冰柜中使用隔热板（VIP板），可以节能30-40%。
 隔热板的原理是用阻隔性非常好、导热系数非常低的袋子抽真空包装玻纤芯材，作为冰柜的隔热板，达到阻止热传导，从而降低能耗。
 这里面对于用来包装玻纤芯材的抽真空袋子是非常重要的一环，这种袋子必须具备以下几点：

@@ -1,6 +1,7 @@
 import React from 'react';
+import styles from './CaseEight.module.css';
 export default function CaseTwenty() {
-    return(<p>
+    return(<p className ={styles.paraGraph}>
      我们遇到一个日本客户，要求我们给他们提供的卷膜必须纵横向都非常平整，也就是切下一片膜，摊平在桌面上，不能有卷曲现象。
 客户的材质不是很复杂，就只是PET/AL/PE。
 一般来讲，卷膜总归会有点卷曲，不管是纵向还是横向，这是做软包装人好像习以为常的事情，但客户就给我们出了这样一个所谓“行业通病”的难题。

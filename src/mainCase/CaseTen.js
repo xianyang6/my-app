@@ -1,6 +1,7 @@
 import React from 'react';
+import styles from './CaseEight.module.css';
 export default function CaseTen() {
-    return(<p>
+    return(<p className ={styles.paraGraph}>
        国外有个客户找我们做裱花袋，要求是：
 膜宽230mm和260mm的蓝色筒料，袋子必须达到外表面是粘手的，也就是摩擦系数很大，内表面必须是开口性很好；
 另外要求袋子的强度要很好，内容物(譬如巧克力酱、甚至水泥等）热灌装在里面后，经得起超大力的拧挤而不破袋、热封边不破漏；

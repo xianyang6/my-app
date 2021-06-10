@@ -1,6 +1,7 @@
 import React from 'react';
+import styles from './CaseEight.module.css';
 export default function CaseFifteen() {
-    return(<p>
+    return(<p className ={styles.paraGraph}>
        从疫情爆发后，一个日本客户找到我们，希望我们能帮他们解决水溶膜洗衣袋的问题。
 日本的水溶膜洗衣袋是日本可乐丽公司提供原料给两家制袋公司，然后由这两家制袋公司供货给日本的洗衣公司，而洗衣公司直接和医院、宾馆等打交道。
 使用水溶性洗衣袋有两方面的好处，一是袋子高阻隔性，可以保证收纳在袋子里的内容物异味、液体等不会流失出来；另一方面又因为遇水即溶的特点，袋子和内容物可以直接一起放到洗衣机里，而不需要接触到内容物。因为疫情的爆发，日本对于这种水溶性高阻隔洗衣袋的需求量特别大，市场不再由那两家公司垄断。

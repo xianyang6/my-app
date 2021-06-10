@@ -1,6 +1,7 @@
 import React from 'react';
+import styles from './CaseEight.module.css';
 export default function MoreCase() {
-    return(<p>
+    return(<p className ={styles.paraGraph}>
      我们还帮助客户解决了以下一些问题，细节问题就不一一列举了：
 
 ①袋子的开口性不好。

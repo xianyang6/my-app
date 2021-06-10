@@ -1,6 +1,7 @@
 import React from 'react';
+import styles from './CaseEight.module.css';
 export default function CaseEightteen() {
-    return(<p>
+    return(<p className ={styles.paraGraph}>
        我们有一个客户做的是中药颗粒剂，这种产品的包装特点是：
 品名繁多，大约有300多种；每个品种的用量参差不齐，多的可能每次下单几吨，少的每次可能只有几十公斤。
 这个客户每年的包装用量4000多万，原来的供应商是一家外资单位，他们原来的供货方案是每个品种一根版辊，每个品种每次下单量规定至少达到1吨的起订量。
