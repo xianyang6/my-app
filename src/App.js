@@ -12,6 +12,7 @@ import Contact from './Contact';
 import Analyze from './Analyze';
 import Intro from './Intro';
 import About from './About';
+import CaseOne from'./mainCase/CaseOne';
 export default function App() {
 
   return (
@@ -84,6 +85,9 @@ export default function App() {
         </Route>
         <Route path ="/about">
           <About />
+        </Route>
+        <Route path ="/caseOne">
+          <CaseOne />
         </Route>
         <Route path="/">
           <Home />
