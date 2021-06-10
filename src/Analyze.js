@@ -1,5 +1,7 @@
 import React from 'react';
-import styles from './Analyze.module.css'
+/** 
+import styles from './Analyze.module.css
+*/
 import {
     Link
 } from "react-router-dom";
