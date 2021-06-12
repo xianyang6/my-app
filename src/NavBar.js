@@ -40,7 +40,7 @@ export default function NavBar() {
         <Link to ="/analyze" className={styles.boxBb}>
           <span class="glyphicon glyphicon-search"></span>
         </Link>
-        <Link to ="/" className={styles.boxBb}>
+        <Link to ="/about" className={styles.boxBb}>
           <span class="glyphicon glyphicon-info-sign"></span>
         </Link>
         <ul>

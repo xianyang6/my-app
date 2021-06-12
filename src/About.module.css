@@ -1,3 +1,4 @@
+@media screen and (min-width: 1200px) {
 .mainTitle{
     font-size: 50px;
     text-align:center;
@@ -15,4 +16,16 @@
 .imgA{
     width :100%;
     position: relative;
+}
+}
+@media screen and (max-width: 1200px) {
+    .imgA{
+        width :100%;
+        position: relative;
+    }
+    .paraGraph{
+        padding-left: 2px;
+        padding-top:2px;
+        padding-right:2px;
+    }
 }
