@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './CaseEight.module.css';
 export default function MoreCase() {
-    return(<p className ={styles.paraGraph}>
+    return(<>
+    <p className ={styles.paraGraph}>
 我们还帮助客户解决了以下一些问题，细节问题就不一一列举了：<br/>
 ①袋子的开口性不好。<br/>
 ②卷膜在自动包装机上拉不动。<br/>
@@ -110,5 +111,7 @@ export default function MoreCase() {
 105自立底太硬或者自立袋底黏住打不开。<br/>
 106纸箱偏大导致压塌。<br/>
 107不含壬基酚。<br/>
-108拉链袋拉链太松。"</p>);
+108拉链袋拉链太松。"</p>
+<img src = "Analyze/Free post design.png" alt ="" className ={styles.img}></img>
+</>);
 }

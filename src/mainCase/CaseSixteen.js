@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './CaseEight.module.css';
 export default function CaseSixteen() {
-    return(<p className ={styles.paraGraph}>
+    return(<>
+    <p className ={styles.paraGraph}>
        新西兰一个客户，他们的产品主要是名贵马、牛、骆驼等的饲料。他们希望我们给他们做的包装袋有以下几个特点：
 1）能抗紫外线，保证包装袋在新西兰直射的阳光下爆嗮，保质期两年，材料可以可以抗紫外线，印刷油墨也要不变色；
 2）袋子装满饲料后可以在托盘上堆高；
@@ -15,5 +16,7 @@ export default function CaseSixteen() {
 同时加装了单向阀单向排掉二氧化碳；
 从而达到了客户的各项要求。
  
-      </p>);
+      </p>
+      <img src = "Analyze/Free post design.png" alt ="" className ={styles.img}></img>
+      </>);
 }
