@@ -1,0 +1,10 @@
+.ul{
+    list-style-type: none;
+}
+.button{
+    margin:10px 10px 10px 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
