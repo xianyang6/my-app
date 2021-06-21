@@ -1,5 +1,5 @@
 import axios from 'axios';
-import env from './env';
+import { env } from './env';
 
 axios.defaults.baseURL = env.apiBaseUrl;
 
@@ -18,7 +18,7 @@ export async function getTypes(): Promise<string[]> {
     return response.data;
 }
 
-export async function getApplications():Promise<string[]> {
+export async function getApplications(): Promise<string[]> {
     const response = await axios.get<string[]>('/applications');
     return response.data;
 }
