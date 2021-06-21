@@ -26,6 +26,7 @@ export default function Home() {
         <button class="btn" onClick={() => setImgIndex(prev => (prev + 1) % imgLinks.length)}>下一张</button>
       </div>
       <Description />
+      <iframe height= "498" width="510" src='https://player.youku.com/embed/XNTE3MjE2NTU4NA==' frameborder="0" allowfullscreen title ="介绍"></iframe>
     </>
   );
 }
