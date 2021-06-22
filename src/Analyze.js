@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Helmet } from 'react-helmet';
 import styles from './Analyze.module.css';
 
 import {
@@ -8,6 +8,11 @@ import {
 export default function Analyze() {
     return (
         <>
+         <Helmet>
+        <title>经典案例</title>
+        <meta name="description" content="从业20年解决包装问题/案例" />
+        <meta name="theme-color" content="#008f68" />
+        </Helmet>
     <Link to ="/caseOne" className ={styles.caseSet}>
     <img src ="Analyze/photo1.jpg" alt ="" className = {styles.img}></img>
       案例一：自动装机改进问题 --
