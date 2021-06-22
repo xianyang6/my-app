@@ -1,7 +1,13 @@
 import React from 'react';
 import styles from './About.module.css';
 export default function About() {
-    return( 
+    return(
+    <>
+    <Helmet>
+        <title>公司介绍/理念/</title>
+        <meta name="description" content="车间介绍" />
+        <meta name="theme-color" content="#008f68" />
+    </Helmet>
     <div>
     <div className = {styles.mainTitle}>公司起源/理念</div>
     <div className ={styles.imgA}>
@@ -14,5 +20,7 @@ export default function About() {
      </p>
      <iframe height="498" width="510" src='https://player.youku.com/embed/XNTE3MjEzMDY4OA==' title ="车间全景"frameborder= "0" allowfullscreen ></iframe>
      </div>
-     </div>);
+     </div>
+     </>
+     );
 }
