@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Description from './Description';
 import styles from './Home.module.css';
-
+import { Helmet } from 'react-helmet';
 const imgLinks = [
   'images/DJI_0135.jpg',
   'images/963A9794.jpg',
@@ -21,6 +21,11 @@ export default function Home() {
 
   return (
     <>
+    <Helmet>
+        <title>公司环境/宣传</title>
+        <meta name="description" content="宣传" />
+        <meta name="theme-color" content="#008f68" />
+    </Helmet>
       <div className="m-1">
         <img src={imgLinks[imgIndex]} alt="" className={styles.img}></img>
         <button class="btn" onClick={() => setImgIndex(prev => (prev + 1) % imgLinks.length)}>下一张</button>
