@@ -4,7 +4,7 @@ import ProductUI from './Product';
 import styles from './intro.module.css';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-
+import { Helmet } from 'react-helmet';
 
 
 
@@ -63,6 +63,11 @@ export default function Intro() {
 
     return (
         <>
+        <Helmet>
+           <title>经典案例</title>
+          <meta name="description" content="从业20年解决包装问题/案例" />
+          <meta name="theme-color" content="#008f68" />
+        </Helmet>
             <h2>材料类型</h2>
             <li className = {styles.ul}>
                 {types.map(type => <FormControlLabel control ={<Checkbox onChange = {() => toggleType(type.name)}/>} label = {type.name}/>)}
