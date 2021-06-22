@@ -64,8 +64,8 @@ export default function Intro() {
     return (
         <>
         <Helmet>
-           <title>经典案例</title>
-          <meta name="description" content="从业20年解决包装问题/案例" />
+           <title>产品简介</title>
+          <meta name="description" content="'三边封', '铝箔', '自立', '背封','拉链', '风琴', '方底袋', '盖膜', '异形袋', '卷膜', '吸嘴袋', '拉伸膜', '枕式包装', '抽真空袋', '防滑袋', '缓冲包装'" />
           <meta name="theme-color" content="#008f68" />
         </Helmet>
             <h2>材料类型</h2>
